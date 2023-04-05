@@ -10,5 +10,20 @@
   "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [],
-  "options": []
+  "options": [
+    {
+      "name": "Nghttp2",
+      "description": "Enable nghttp2 support for DNS over HTTPS",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Nghttp2",
+          "version": "1.44.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    }
+  ]
 }
