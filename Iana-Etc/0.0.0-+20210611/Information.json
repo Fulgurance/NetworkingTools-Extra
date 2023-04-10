@@ -11,8 +11,8 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "name": "Man-Pages",
-      "version": "5.13.0",
+      "name": "SystemBase",
+      "version": "0.2.0",
       "options": []
     }
   ],
