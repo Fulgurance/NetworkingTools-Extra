@@ -9,7 +9,13 @@
   "md5sums": ["de1f9687b5bccdb868593e12c04cc985"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
   "options": [
     {
       "name": "Nghttp2",
