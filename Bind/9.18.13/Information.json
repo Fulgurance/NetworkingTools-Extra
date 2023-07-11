@@ -2,7 +2,9 @@
   "port": "NetworkingTools-Extra",
   "name": "Bind",
   "version": "9.18.13",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Open source software that implements the Domain Name System protocols for the Internet",
   "website": "https://www.isc.org",
   "installedFiles": [],
@@ -25,7 +27,8 @@
           "version": "1.44.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

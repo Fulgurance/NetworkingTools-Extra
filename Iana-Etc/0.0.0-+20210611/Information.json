@@ -2,7 +2,9 @@
   "port": "NetworkingTools-Extra",
   "name": "Iana-Etc",
   "version": "0.0.0-+20210611",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "/etc/protocols and /etc/services files from IANA's Assigned Internet Protocol Numbers",
   "website": "https://www.iana.org/protocols",
   "installedFiles": [],
