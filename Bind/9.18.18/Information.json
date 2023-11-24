@@ -42,7 +42,7 @@
         }
       ],
       "kernelDependencies": []
-    }
+    },
     {
       "name": "Nghttp2",
       "description": "Enable nghttp2 support for DNS over HTTPS",
