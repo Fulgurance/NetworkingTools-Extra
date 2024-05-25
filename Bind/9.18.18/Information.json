@@ -2,16 +2,15 @@
   "port": "NetworkingTools-Extra",
   "name": "Bind",
   "version": "9.18.18",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Open source software that implements the Domain Name System protocols for the Internet",
   "website": "https://www.isc.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "BaseLibraries-Main",
       "name": "Libuv",
-      "version": "1.46.0",
+      "version": ">=1.46.0",
       "options": []
     }
   ],
@@ -23,8 +22,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Json-C",
-          "version": "0.17.0",
+          "version": ">=0.17.0",
           "options": []
         }
       ],
@@ -36,6 +36,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Libcap",
           "version": "2.69.0",
           "options": ["Linux-Pam"]
@@ -49,8 +50,9 @@
       "active": true,
       "dependencies": [
         {
+          "port": "NetworkingLibraries-Main",
           "name": "Nghttp2",
-          "version": "1.55.1",
+          "version": ">=1.55.1",
           "options": []
         }
       ],
