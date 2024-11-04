@@ -1,7 +1,7 @@
 {
   "port": "NetworkingTools-Extra",
   "name": "Iana-Etc",
-  "version": "0.0.0-20230810",
+  "version": "0.0.0-20241024",
   "architectures": ["x86_64"],
   "description": "/etc/protocols and /etc/services files from IANA's Assigned Internet Protocol Numbers",
   "website": "https://github.com/Mic92/iana-etc",
